@@ -30,7 +30,7 @@ def monkey_trouble(x, z):
         print("You are not in trouble")
         return False
     else:
-        print("You ar ein trouble")
+        print("You are in trouble")
         return True
 
 def add10(x):
