@@ -43,10 +43,7 @@ def add10(x):
         return(x)
 
 def main():
-<<<<<<< HEAD
-	print("Hello")
-	
-=======
+
     x = True
 
     print("Hello")
@@ -59,6 +56,5 @@ def main():
     monkey_trouble(blah, blah)
     print(add10(1))
 
->>>>>>> 0b5aafba9262e3c7279e63e781667b7c83461bcd
 
 main()
