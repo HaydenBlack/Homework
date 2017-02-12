@@ -42,14 +42,48 @@ def add10(x):
         #print(x)
         return(x)
 
+<<<<<<< HEAD
 def make_abba(a, b):
     che = input("Enter a word ")
     we = input("Enter another word ")
     print(che + we + we + che)
     return (a, b)
+=======
+"""
+Given a string name("Bob"),
+return a greeting in the form "Hello Bob!".
+Example:
+hello_name('Bob'), prints 'Hello Bob!'
+hello_name('Alice'), prints 'Hello Alice!'
+
+Make the changes to the function below
+then add it to the main function below to tell it to run hello_name
+hint: it runs similar to how the other functions in main are running
+"""
+def hello_name(name):
+
+
+
+"""
+Given two strings, a and b, return the result of putting them together in the order abba,
+Example:
+"Hi" and "Bye" returns "HiByeByeHi"
+make_abba('Hi', 'Bye') returns 'HiByeByeHi'
+make_abba('Yo','Scott') returns 'YoScottScottYo'
+make_abba('What', 'Up') returns 'WhatUpUpWhat'
+
+Hint: Think about how you attach a variable to a print statement
+print("words"... "more words"), it is called concatenation,
+or concatenating strings if you need to look it up.
+"""
+def make_abba(a, b):
+
+
+>>>>>>> 89b34f3d76bd49af4cc986ccd425890047887c1e
 
 
 def main():
+
     x = True
 
     print("Hello")
