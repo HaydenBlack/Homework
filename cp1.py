@@ -42,6 +42,13 @@ def add10(x):
         #print(x)
         return(x)
 
+def make_abba(a, b):
+    che = input("Enter a word ")
+    we = input("Enter another word ")
+    print(che + we + we + che)
+    return (a, b)
+
+
 def main():
     x = True
 
@@ -53,7 +60,9 @@ def main():
     makes10(9, 1)
     monkey_trouble(x, False)
     monkey_trouble(blah, blah)
-    print(add10(1))
+    (add10(1))
+    print(make_abba(1, 2))
+
 
 
 main()
