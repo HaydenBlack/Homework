@@ -43,22 +43,16 @@ def add10(x):
         return(x)
 
 
-def make_abba(a, b):
-    che = input("Enter a word ")
-    we = input("Enter another word ")
-    print(che + we + we + che)
-    return (a, b)
+def make_abba(che, we):
+    #che = input("Enter a word ")
+    #we = input("Enter another word ")
+    temp = che + we + we + che
+    return temp
 
 
-def hello_name(f, g):
-    if (True == "Hayden"):
-        print("Hello Hayden")
-        return True
-    else:
-        (False == "Scott")
-        print("Hello Scott")
-        return False
-        print(f, g)
+def hello_name(f):
+    print("Hello " + f)
+
 
 
 
@@ -79,8 +73,8 @@ def main():
     monkey_trouble(x, False)
     monkey_trouble(blah, blah)
     (add10(1))
-    (make_abba(1, 2))
-    print(hello_name(True, False))
+    print (make_abba("hi", "bye"))
+    hello_name("Hayden")
 
 
 
